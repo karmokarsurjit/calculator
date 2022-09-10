@@ -22,10 +22,10 @@ class _CalculatorUiState extends State<CalculatorUi> {
       child: Container(
         margin: const EdgeInsets.all(10),
         child: ElevatedButton(
-          //style: ElevatedButton.styleFrom(backgroundColor: Colors.amberAccent),
-          style: ElevatedButton.styleFrom(
-            backgroundColor: (click == false) ? Colors.deepOrangeAccent : Colors.orangeAccent,
-          ),
+          style: ElevatedButton.styleFrom(backgroundColor: Colors.amberAccent),
+          //style: ElevatedButton.styleFrom(
+            //backgroundColor: (click == false) ? Colors.deepOrangeAccent : Colors.orangeAccent,
+          //),
           onPressed: () {
             setState(() {
               click = !click;
